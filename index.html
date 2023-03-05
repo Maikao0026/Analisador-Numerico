@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css".css">
+  <title>Contador</title>
+</head>
+<body>
+  <header>
+    <h1>Contador</h1>
+  </header>
+  <section>
+    <div>
+      <label for="numero">Escolha um Númeroentre 1 e 100: </label>
+      <input type="number" name="numero" id="numero">
+      <input type="button" value="Adicionar" onclick="adicionar()">
+    </div>
+    <br>
+    <div>
+      <select name="select" id="select" size="6"></select>
+    </div>
+    <input type="button" value="Finalizar" onclick="finalizar()">
+    <input type="button" value="Limpar" onclick="limpar()">
+    <br>
+    <div id="p0">
+      <p id="p1"></p>
+      <p id="p2"></p>
+      <p id="p3"></p>
+      <p id="p4"></p>
+      <p id="p5"></p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; Número</p>
+  </footer>
+  <script src="index.js".js"></script>
+</body>
+</html>
